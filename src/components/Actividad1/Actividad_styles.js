@@ -65,9 +65,11 @@ const mistyles = css`
 .drag{
     background: ${Ilex.violeta2};
     color: white;
+    font-weight: bold;
     border-radius: 0.5em;
     height: 2.5em;
-    width: 10.3em;
+    width: 17em;
+    padding:0.5em;
     margin-left: 0.1em;
     margin-top: -0.5em;
     text-align: center;
@@ -86,9 +88,10 @@ const mistyles = css`
     background-image: url(./src/read_buttons.png);
     background-repeat: no-repeat;
     cursor: pointer;
-    width:40px;
-    height: 34px;
-    margin-left: 7em;
+    width:50px;
+    height: 44px;
+    margin-left: 13em;
+    position: relative;
     &:hover{
         background-image: url(./src/read_buttons_hover.png);
     }   
@@ -106,8 +109,8 @@ const mistyles = css`
     
 }
 .img{
-        width: 165px;
-        min-height: 122px;
+        width: 275px;
+        min-height: 200px;
         background-repeat: no-repeat;
     }
 `

@@ -94,7 +94,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
                     <ICol w={50.5}> 
                         <p> <strong> {i + 1}. </strong> {data.text} </p>
                     </ICol>
-                    <IRow w={10.5} gutters={0.2}>
+                    <IRow w={10} gutters={0.2}>
                         <InputWords ok={eval('okInput' + i)} err={eval('errInput' + i)} idArr={i} changeCheck={setChecked}/>
                     </IRow>
             </IRow>
@@ -115,15 +115,15 @@ const Actividad2_base = ({staticContext, ...props}) => {
     })
  
     return (
-        <Container bgImage='./src/bg_actividad1.png' {...props} id="area" h={40} w={72}>
+        <Container bgImage='./src/bg_actividad1.png' {...props} id="area" h={36} w={72}>
             
             <UiButtonsContainer>
-                <ButtonUi icon='ilx-ayuda' tooltip='After reading the information, answer if the following sentences are true or false' />
+                <ButtonUi icon='ilx-ayuda' tooltip='Read the statement and decide what festival it is refering to' />
                 <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad2'} } />
             </UiButtonsContainer>
             
           
-            <IRow pt={2} w={80} justify="center" align="center">
+            <IRow pt={4} w={80} justify="center" align="center">
                 <MainTitle color={Ilex.violeta2} size={1.3}>
                     READ THE STATEMENT AND DECIDE WHAT FESTIVAL IT IS REFERRING TO BY CHOOSING A (OKTOBERFEST) B (GLASTONBURY) C (THE DAY OF THE DEAD)
                 </MainTitle>
@@ -132,11 +132,11 @@ const Actividad2_base = ({staticContext, ...props}) => {
                 <ICol w={70} >
                     {list1}
                 </ICol>
-                <ICol w={30} pt={5} >
+                <ICol w={30} pt={3} >
                     {list2}
                 </ICol>
             </IRow>
-            <IRow pt={2.4} >
+            <IRow pt={4.5} >
                 <ICol  onClick={checkActivity} ><ButtonCheck /></ICol>
             </IRow>
 

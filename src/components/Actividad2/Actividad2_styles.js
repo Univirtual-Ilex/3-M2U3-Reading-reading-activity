@@ -10,7 +10,7 @@ const styles = css`
         background: ${Ilex.violeta2};
         color: white;
         border-radius: 0.5em;
-        height: 2em;
+        height: 3em;
         width: 10.3em;
         cursor: pointer;
         text-align: center;

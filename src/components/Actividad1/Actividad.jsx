@@ -67,10 +67,10 @@ const Actividad_base =  ({staticContext,...props}) => {
 
 
     return (
-        <Container bgImage='./src/bg_actividad1.png' id='area' {...props} h={40} w={80} >
+        <Container bgImage='./src/bg_actividad1.png' id='area' {...props} h={35} w={80} >
             
             <UiButtonsContainer>
-                <ButtonUi icon='ilx-ayuda' tooltip='Click on the button to see the information of each student and the emails' />
+                <ButtonUi icon='ilx-ayuda' tooltip='Click on each image to read the description ' />
                 <ButtonUi icon='ilx-volver' tooltip='Start Again'  onClick={ () => {window.location.href = '/actividad1'} }/>
             </UiButtonsContainer>
             <IRow pt={4}>
@@ -101,7 +101,7 @@ const Actividad_base =  ({staticContext,...props}) => {
                 </ICol>
                 <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad1'} nxtUrl={'/actividad2'} />
                 <IRow pt={5.5} >
-                    <ICol pt={1}>
+                    <ICol pt={11.2}>
                         <a href="/actividad2"> <ButtonCheck text={"NEXT"} /></a>
                     </ICol>
                 </IRow>

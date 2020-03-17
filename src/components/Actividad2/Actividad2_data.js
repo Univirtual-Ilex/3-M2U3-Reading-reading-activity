@@ -3,52 +3,52 @@ const data = [
     {
       "right": 0,
       "answer": 'C',
-      "text": "two people are kissing"
+      "text": "Two people are kissing"
     },
     {
       "right": 0,
       "answer": 'B',
-      "text": "the writer is looking at the camera."
+      "text": "The writer is looking at the camera."
     },
     {
       "right": 0,
       "answer": 'A',
-      "text": "there is a little girl wearing a funny hat"
+      "text": "There is a little girl wearing a funny hat"
     },
     {
       "right": 0,
       "answer": 'A',
-      "text": "friends are dancing"
+      "text": "Friends are dancing"
     },
     {
       "right": 0,
       "answer": 'B',
-      "text": "one girl is wearing a cap"
+      "text": "One girl is wearing a cap"
     },
     {
       "right": 0,
       "answer": 'C',
-      "text": "people are making preparations"
+      "text": "People are making preparations"
     },
     {
       "right": 0,
       "answer": 'B',
-      "text": "one friend is ignoring the other friend"
+      "text": "One friend is ignoring the other friend"
     },
     {
       "right": 0,
       "answer": 'C',
-      "text": "one person is wearing typical clothes "
+      "text": "One person is wearing typical clothes "
     },
     {
       "right": 0,
       "answer": 'A',
-      "text": "people are holding a drink in their hands"
+      "text": "People are holding a drink in their hands"
     },
     {
       "right": 0,
       "answer": 'B',
-      "text": "people are wearing glasses"
+      "text": "People are wearing glasses"
     },
   ]
 

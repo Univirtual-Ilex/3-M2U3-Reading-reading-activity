@@ -119,7 +119,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
             
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='Read the statement and decide what festival it is refering to' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad2'} } />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.reload()} } />
             </UiButtonsContainer>
             
           
@@ -144,7 +144,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
                 <h3>{tooltipTitle}</h3>
                 <p>{tooltipText}</p>
             </Tooltip>
-            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad2'} finished={ok} />
+            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'#/actividad2'} finished={ok} />
         </Container>
     )
 }

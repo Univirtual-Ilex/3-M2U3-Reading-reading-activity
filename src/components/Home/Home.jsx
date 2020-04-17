@@ -12,7 +12,7 @@ const Home_base = function ({ staticContext, ...props}) { // se le pasan las pro
     return (
         <Container {...props}  row bgImage="src/bg.png">
 
-                    <div className='bloque-izquierdo'>
+                    <div className='bloque-izquierdo entrada-top-Y-2'>
                         <div className='bloque-izquierdo-container'>
                             <h1> Reading activity </h1>
                             <p>
@@ -22,7 +22,7 @@ const Home_base = function ({ staticContext, ...props}) { // se le pasan las pro
                             <ButtonLink className="start" to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
-                    <ICol className='bloque-derecho'>
+                    <ICol className='bloque-derecho entrada-top-Y-3'>
                         <figure>
                             <img src='./src/cover.png' alt='Logo' />    
                         </figure>

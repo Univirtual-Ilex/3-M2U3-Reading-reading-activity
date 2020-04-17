@@ -69,9 +69,9 @@ const ModalBase = ( { w, ok, err, finished, visible,nxtUrl,repeatUrl, ...props }
 
 
                     <div className='ilx-modal-footer'>
-                        <ButtonmodalTo inactivo href={repeatUrl}>Repeat</ButtonmodalTo>
+                        <ButtonmodalTo inactivo onClick={ () => {window.location.reload()} } href={repeatUrl}>Repeat</ButtonmodalTo>
                         { !err && !finished &&  <ButtonmodalTo href={nxtUrl}> Next </ButtonmodalTo>  }
-                        {finished && <ButtonmodalTo href={'/'}> Finished </ButtonmodalTo>}
+                        {finished && <ButtonmodalTo href={'#/'}> Finished </ButtonmodalTo>}
                         
                     </div>
 
